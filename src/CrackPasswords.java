@@ -67,8 +67,8 @@ public class CrackPasswords {
       new Pair<>('s', "5"), new Pair<>('t', "+"), new Pair<>('v', "^"), new Pair<>('v', "<"), new Pair<>('v', ">"),
       new Pair<>('w', "vv"), new Pair<>('w', "VV"), new Pair<>('w', "uu"), new Pair<>('w', "UU"), new Pair<>('x', "+")
     );
-  private static final String[] guessList = { // predefined guessing strings
-                                              // More sequenced/patterned ones will be extended at runtime
+  private static final String[] guessList = { // predefined strings used as prefix/suffix to extend dictionary words
+                                              // More numbers/patterns/recent years etc. will be procedurally generated later
       "",
       "password", "pwd", "pass word",
       "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec",
