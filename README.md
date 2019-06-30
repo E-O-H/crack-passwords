@@ -1,5 +1,5 @@
 # crack-passwords
-The program tries to crack hashed passwords given their hashes and salts. Hash function is SHA-512 with results truncated to 256bits. 
+The program tries to crack hashed passwords given their hashes and salts. The targeted hash function is SHA-512 with results truncated to 256bits. 
 
 The program tries various techniques by combining dictionary words, prefix/sufix words with guess strings, 
 substitute for uppercase letters and other symbols, as well as brute-force on specified character set. 
